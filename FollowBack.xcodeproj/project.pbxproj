@@ -14,6 +14,13 @@
 		E87565651B85D94C00652FE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E87565641B85D94C00652FE0 /* Images.xcassets */; };
 		E87565681B85D94C00652FE0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E87565661B85D94C00652FE0 /* LaunchScreen.xib */; };
 		E87565741B85D94C00652FE0 /* FollowBackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E87565731B85D94C00652FE0 /* FollowBackTests.m */; };
+		E875657F1B85D9F600652FE0 /* AccountChooserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E875657E1B85D9F600652FE0 /* AccountChooserTableViewController.m */; };
+		E87565831B85DAF500652FE0 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87565821B85DAF500652FE0 /* Accounts.framework */; };
+		E87565851B85DCDC00652FE0 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87565841B85DCDC00652FE0 /* GoogleMobileAds.framework */; };
+		E87565881B85E13F00652FE0 /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E87565871B85E13F00652FE0 /* AsyncImageView.m */; };
+		E87565B41B85F90300652FE0 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87565B31B85F90300652FE0 /* Twitter.framework */; };
+		E87565B61B85F95100652FE0 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87565B51B85F95100652FE0 /* Social.framework */; };
+		E87565CD1B85FA6400652FE0 /* STTwitter in Resources */ = {isa = PBXBuildFile; fileRef = E87565CC1B85FA6400652FE0 /* STTwitter */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,15 @@
 		E875656D1B85D94C00652FE0 /* FollowBackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FollowBackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E87565721B85D94C00652FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E87565731B85D94C00652FE0 /* FollowBackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FollowBackTests.m; sourceTree = "<group>"; };
+		E875657D1B85D9F600652FE0 /* AccountChooserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountChooserTableViewController.h; sourceTree = "<group>"; };
+		E875657E1B85D9F600652FE0 /* AccountChooserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountChooserTableViewController.m; sourceTree = "<group>"; };
+		E87565821B85DAF500652FE0 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		E87565841B85DCDC00652FE0 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		E87565861B85E13F00652FE0 /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		E87565871B85E13F00652FE0 /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		E87565B31B85F90300652FE0 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		E87565B51B85F95100652FE0 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		E87565CC1B85FA6400652FE0 /* STTwitter */ = {isa = PBXFileReference; lastKnownFileType = folder; path = STTwitter; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E87565B61B85F95100652FE0 /* Social.framework in Frameworks */,
+				E87565B41B85F90300652FE0 /* Twitter.framework in Frameworks */,
+				E87565851B85DCDC00652FE0 /* GoogleMobileAds.framework in Frameworks */,
+				E87565831B85DAF500652FE0 /* Accounts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +83,10 @@
 		E875654B1B85D94C00652FE0 = {
 			isa = PBXGroup;
 			children = (
+				E87565B51B85F95100652FE0 /* Social.framework */,
+				E87565B31B85F90300652FE0 /* Twitter.framework */,
+				E87565821B85DAF500652FE0 /* Accounts.framework */,
+				E87565841B85DCDC00652FE0 /* GoogleMobileAds.framework */,
 				E87565561B85D94C00652FE0 /* FollowBack */,
 				E87565701B85D94C00652FE0 /* FollowBackTests */,
 				E87565551B85D94C00652FE0 /* Products */,
@@ -81,6 +105,9 @@
 		E87565561B85D94C00652FE0 /* FollowBack */ = {
 			isa = PBXGroup;
 			children = (
+				E87565CC1B85FA6400652FE0 /* STTwitter */,
+				E87565861B85E13F00652FE0 /* AsyncImageView.h */,
+				E87565871B85E13F00652FE0 /* AsyncImageView.m */,
 				E875655B1B85D94C00652FE0 /* AppDelegate.h */,
 				E875655C1B85D94C00652FE0 /* AppDelegate.m */,
 				E875655E1B85D94C00652FE0 /* ViewController.h */,
@@ -89,6 +116,8 @@
 				E87565641B85D94C00652FE0 /* Images.xcassets */,
 				E87565661B85D94C00652FE0 /* LaunchScreen.xib */,
 				E87565571B85D94C00652FE0 /* Supporting Files */,
+				E875657D1B85D9F600652FE0 /* AccountChooserTableViewController.h */,
+				E875657E1B85D9F600652FE0 /* AccountChooserTableViewController.m */,
 			);
 			path = FollowBack;
 			sourceTree = "<group>";
@@ -202,6 +231,7 @@
 				E87565631B85D94C00652FE0 /* Main.storyboard in Resources */,
 				E87565681B85D94C00652FE0 /* LaunchScreen.xib in Resources */,
 				E87565651B85D94C00652FE0 /* Images.xcassets in Resources */,
+				E87565CD1B85FA6400652FE0 /* STTwitter in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E87565601B85D94C00652FE0 /* ViewController.m in Sources */,
+				E87565881B85E13F00652FE0 /* AsyncImageView.m in Sources */,
+				E875657F1B85D9F600652FE0 /* AccountChooserTableViewController.m in Sources */,
 				E875655D1B85D94C00652FE0 /* AppDelegate.m in Sources */,
 				E875655A1B85D94C00652FE0 /* main.m in Sources */,
 			);
@@ -299,7 +331,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -336,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -347,8 +379,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = FollowBack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -357,8 +395,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = FollowBack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

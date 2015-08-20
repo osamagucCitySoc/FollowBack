@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Accounts/Accounts.h>
 
 @interface ViewController : UIViewController
 
+@property(nonatomic,strong) ACAccount* selectedAccount;
 
 @end
 
